@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Interpolation/>
+  <Directive/>
+  <LifeCycle/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Interpolation from './class_1/Interpolation.vue'
+import Directive from './class_1/Directive.vue'
+import LifeCycle from './class_1/LifeCycle.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Interpolation,
+    Directive,
+    LifeCycle
   }
 }
 </script>
